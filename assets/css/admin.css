@@ -1,0 +1,11 @@
+.tc-carousel-metabox label {
+    color: currentColor;
+}
+
+.tc-carousel-metabox td {
+    padding: 5px;;
+}
+
+.tc-carousel-metabox th {
+    padding: 10px 10px 5px 0;
+}

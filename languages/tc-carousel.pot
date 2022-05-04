@@ -1,0 +1,160 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TC "
+"Carousel Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2022-04-27 18:26-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.0.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: class.tc-carousel-settings.php:18
+msgid "How does it work?"
+msgstr ""
+
+#: class.tc-carousel-settings.php:25
+msgid ""
+"Other Plugin Options"
+msgstr ""
+
+#: class.tc-carousel-settings.php:32
+msgid "Shortcode"
+msgstr ""
+
+#: class.tc-carousel-settings.php:40
+msgid "Carousel Title"
+msgstr ""
+
+#: class.tc-carousel-settings.php:51
+msgid ""
+"Display Nav Controls"
+msgstr ""
+
+#: class.tc-carousel-settings.php:62
+msgid "Carousel Style"
+msgstr ""
+
+#: class.tc-carousel-settings.php:78
+msgid ""
+"Use the shorcode "
+"[tc_carousel] to display "
+"the carousel in any page/"
+"post/widget"
+msgstr ""
+
+#: class.tc-carousel-settings.php:106
+msgid ""
+"Whether to display nav "
+"controls or not"
+msgstr ""
+
+#: class.tc-carousel-settings.php:134
+msgid ""
+"The Carousel Title field "
+"can not be left empty"
+msgstr ""
+
+#: class.tc-carousel-settings.php:135
+msgid ""
+"This cannot be empty"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:18
+#: post-types/class.tc-carousel-cpt.php:22
+msgid "TC Carousel"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:19
+#: post-types/class.tc-carousel-cpt.php:21
+msgid "TC Carousels"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:60
+#: views/tc-carousel_metabox.php:11
+msgid "Link Text"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:61
+#: views/tc-carousel_metabox.php:26
+msgid "Link URL"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:68
+msgid "Link Options"
+msgstr ""
+
+#: post-types/class.tc-carousel-cpt.php:108
+msgid "add some text here"
+msgstr ""
+
+#: tc-carousel.php:94
+msgid "TC Carousel Options"
+msgstr ""
+
+#: tc-carousel.php:104
+#: tc-carousel.php:105
+msgid "Manage Carousels"
+msgstr ""
+
+#: tc-carousel.php:114
+#: tc-carousel.php:115
+msgid "Add New Carousel"
+msgstr ""
+
+#: tc-carousel.php:129
+msgid "Settings Saved"
+msgstr ""
+
+#: views/settings-page.php:7
+msgid "Main Options"
+msgstr ""
+
+#: views/settings-page.php:8
+msgid "Additional Options"
+msgstr ""
+
+#: views/settings-page.php:19
+msgid "Save Settings"
+msgstr ""
