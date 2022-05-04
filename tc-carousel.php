@@ -6,7 +6,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       TC Carousel by trevercumming.com
- * Plugin URI:        https://trevercumming.com/tc-Carousel/
+ * Plugin URI:        https://trevercumming.com
  * Description:       Simple Logo Carousel by trevercumming.com
  * Version:           1.0
  * Author:            TreverCumming
