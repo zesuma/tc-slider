@@ -1,1 +1,1 @@
-# tc-slider - Simple image carousel built for WordPress Themes
+# tc-slider - Simple image carousel Plugin built for WordPress Themes
