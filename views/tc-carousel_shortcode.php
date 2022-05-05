@@ -17,7 +17,6 @@
 
             $title_text = get_post_meta( get_the_ID(), 'tc_carousel_link_text', true );
             $title_url = get_post_meta( get_the_ID(), 'tc_carousel_link_url', true );
-            $the_content = get_the_content();
 
             ?>
             <div class="carousel-wrapper">
