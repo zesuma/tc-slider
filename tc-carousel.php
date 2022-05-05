@@ -97,7 +97,7 @@ if( ! class_exists( 'TC_Carousel' ) ){
             load_plugin_textdomain(
                 'tc-carousel',
                 false,
-                dirname( plugin_basename( __FILE__ ) ) . '/languages/'
+                dirname( plugin_basename( __FILE__ ) ) . '/languages'
             );
         }
 
