@@ -1,5 +1,4 @@
 .tc-carousel {
-    /* box-shadow: 2px 2px 5px rgba(0,0,0,.3); */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,29 +53,22 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    gap: .5em;
+    margin-block-start: 1em;
 }
 
-button {
+.buttons-container button {
     border: none;
     display: flex;
     align-items: center;
     display: flex;
     align-items: center;
-}
-
-#left, #right, #play {
     background-color: transparent;
     color: inherit;
     padding: 0;
-    margin-block-start: 1em;
 }
 
-.dashicons.dashicons-arrow-left-alt2,
-.dashicons.dashicons-arrow-right-alt2 {
-    width: 24px;
-    height: 24px;
-    font-size: 1.5rem;
+.buttons-container .dashicons {
+    font-size: 1.75rem;
 }
 
 
