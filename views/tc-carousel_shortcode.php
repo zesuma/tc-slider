@@ -19,17 +19,15 @@
             $title_url = get_post_meta( get_the_ID(), 'tc_carousel_link_url', true );
 
             ?>
-            <div class="carousel-wrapper">
-                <a href="<?php echo esc_attr( $title_url ); ?>" title="<?php echo esc_html( $title_text ); ?>" class="link">
-                <?php
-                    if( has_post_thumbnail() ){
-                        the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) );
-                    } else {
-                        echo tc_carousel_get_placeholder_image();
-                    }
-                ?>  
-                </a>
-            </div>
+            <a href="<?php echo esc_attr( $title_url ); ?>" title="<?php echo esc_html( $title_text ); ?>" class="link">
+            <?php
+                if( has_post_thumbnail() ){
+                    the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) );
+                } else {
+                    echo tc_carousel_get_placeholder_image();
+                }
+            ?>  
+            </a>
             <?php
             endwhile;
             wp_reset_postdata();
