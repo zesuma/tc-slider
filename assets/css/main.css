@@ -12,7 +12,7 @@
 .image-container {
     display: flex;
     transform: translateX(0);
-    transition: transform .5s ease-in-out;
+    transition: transform .5s cubic-bezier(0.25,0.1,0.25,1);
     gap: 1em;
 }
 
@@ -39,9 +39,11 @@
 }
 
 .carousel-wrapper img {
-    width: 18em;
+    height: 8em;
+    max-height: fit-content;
+    transition: all .3s cubic-bezier(0.25,0.1,0.25,1);
+    width: fit-content;
     max-width: fit-content;
-    transition: all .3s ease-in-out;
 }
 
 .carousel-wrapper img:hover {
@@ -84,7 +86,5 @@ button {
 }
 
 @media (max-width: 820px) {
-    .tc-carousel img {
-        max-width: 18em;
-    }
+
 }
