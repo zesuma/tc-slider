@@ -37,6 +37,7 @@
     max-height: fit-content;
     width: fit-content;
     max-width: fit-content;
+    transition: all .3s cubic-bezier(0.65,0,.2,1.1);
 }
 
 .image-container img:hover {
