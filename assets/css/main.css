@@ -11,7 +11,7 @@
 .image-container {
     display: flex;
     transform: translateX(0);
-    transition: transform .5s cubic-bezier(0.25,0.1,0.25,1);
+    transform: 1s cubic-bezier(0.75,0,.25,1.1);
     gap: 1em;
 }
 
@@ -40,7 +40,6 @@
 .carousel-wrapper img {
     height: 8em;
     max-height: fit-content;
-    transition: all .3s cubic-bezier(0.25,0.1,0.25,1);
     width: fit-content;
     max-width: fit-content;
 }
