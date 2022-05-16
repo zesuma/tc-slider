@@ -11,7 +11,7 @@
 .image-container {
     display: flex;
     transform: translateX(0);
-    transform: 1s cubic-bezier(0.75,0,.25,1.1);
+    transition: all 1s cubic-bezier(0.75,0,.25,1.1);
     gap: 1em;
 }
 
