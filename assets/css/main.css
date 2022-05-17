@@ -6,7 +6,7 @@
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(100, minmax(300px, 1fr));
     transform: translateX(0);
     transition: all 1s cubic-bezier(0.65,0,.2,1.1);
     gap: 1em;
