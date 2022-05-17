@@ -1,8 +1,4 @@
 .tc-carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1em;
     overflow: hidden;
     padding: 2em 1em;
     background-color: inherit;
@@ -33,10 +29,10 @@
 }
 
 .image-container img {
-    height: 8em;
-    max-height: fit-content;
-    width: fit-content;
-    max-width: fit-content;
+    height: 8rem;
+    max-height: min-content;
+    width: min-content;
+    max-width: min-content;
     transition: all .3s cubic-bezier(0.65,0,.2,1.1);
 }
 
