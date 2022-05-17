@@ -1,4 +1,4 @@
-<div class="tc-carousel">
+<div class="tc-carousel" role="region" aria-label="TC Carousel">
     <div class="image-container" id="imgs">
 
     <?php
@@ -35,8 +35,8 @@
     ?>
     </div>
     <div class="buttons-container">
-        <button id="left"><span class="dashicons dashicons-arrow-left-alt2"></span></button>
-        <button id="play" class="play"><span class="dashicons dashicons-controls-pause"></span></button>
-        <button id="right"><span class="dashicons dashicons-arrow-right-alt2"></span></button>
+        <button id="left" aria-label="Previous slide><span class="dashicons dashicons-arrow-left-alt2"></span></button>
+        <button id="play" class="play" aria-label="Pause slide><span class="dashicons dashicons-controls-pause"></span></button>
+        <button id="right" aria-label="Next slide><span class="dashicons dashicons-arrow-right-alt2"></span></button>
     </div>
 </div>
